@@ -17,14 +17,12 @@ Gem::Specification.new do |s|
   s.test_files = Dir["spec/**/*"] + ['Guardfile']
 
   s.add_dependency "rails", ">= 3.1"
-  s.add_dependency "axlsx", ">= 2.0.1"
 
   s.add_development_dependency "bundler"
   s.add_development_dependency "rake"
   s.add_development_dependency "rspec-rails"
   s.add_development_dependency "guard-rspec"
   s.add_development_dependency "capybara"
-  s.add_development_dependency "acts_as_xlsx"
   s.add_development_dependency "roo"
   s.add_development_dependency "rubyzip"
   s.add_development_dependency "sqlite3"
