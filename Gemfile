@@ -27,7 +27,7 @@ gem "thin"
 # your gemspec. These might include edge Rails or gems from your path or
 # Git. Remember to move these dependencies to your gemspec before releasing
 # your gem to rubygems.org.
-gem 'acts_as_xlsx', git: 'git://github.com/straydogstudio/acts_as_xlsx.git'
+gem 'acts_as_xlsx', git: 'git://github.com/yannp/acts_as_xlsx.git'
 gem 'axlsx', :git => 'git://github.com/yannp/axlsx.git'
 gem 'capybara', '~> 2.1'
 
